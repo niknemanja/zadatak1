@@ -1,0 +1,43 @@
+body,html {
+    margin: 0;
+}
+
+
+body{
+    font-family: monospace;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-size: 1.2rem;
+}
+
+div, header, footer{
+    padding: 20px;
+}
+
+input[type="email"]{
+    padding: 10px 20px;
+    display: block;
+}
+
+.send-btn{
+    background: black;
+    padding: 20px 10px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.hero-img{
+    transition: 0.7s;
+    border: 2px solid transparent;
+}
+.hero-img:hover{
+    opacity: 0.5;
+    border: 2px solid yellow;
+}
+
+@media screen and (max-width: 768px){
+    .hero-img{
+        width: 100%;
+    }
+}
